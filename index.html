@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="log">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">Services</a> </li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a> </li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <img src="" alt="">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span style="color: blue;">Musa</span> <br>from Rwanda</h1>
+            </div>
+        </div>
+
+    </div>
+  <!----------------about--------------->
+  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="change">
+                <div class="about-col-1">
+                    <img src="images/ab.png" width="400px" height="300px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About me</h1>
+    
+                    <p>
+                        I'm a Web developer With more experiance<br> that I did from
+                        many institution<br> such as University of Rwanda callege of science and Technology,<br> 
+                        Klab Rwanda,Etc... 
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI</span><br>Web Designing</li>
+                            <li><span>Web development</span><br>Web App Development</li>
+                            <li><span>App development</span><br>Bluid androide and iOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>2023-currently</span><br>Web Development</li>
+                            <li><span>2023-currently</span><br>Apps Development</li>
+                            <li><span>2023-2024</span><br>training at Klab Rwanda</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-currently</span><br>University of Rwanda</li>
+                            <li><span>2019-2022</span><br>G S REMERA RUKOMA</li>
+                            <li><span>2016-2018</span><br>G S KAGINA</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <!-----------Services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>  
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>HI, here we help peaple to create thier oun web designing by 
+                        giving them all skills required.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-browser"></i>
+                    <h2>Apps Design</h2>
+                    <p>HI, here we help peaple to create thier oun Apps designing by 
+                        giving them all skills required.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-light fa-laptop-binary"></i>
+                    <h2>Software development</h2>
+                    <p>HI, here we help peaple to create thier oun Software development by 
+                        giving them all skills required.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------portfolio------------------------------>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>  
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/app.png" width="400" height="300" >
+                    <div class="layer">
+                        <h3>Online Application</h3>
+                        <p>Owner of <span style="color: aqua;"><b>Thekist.com</b></span> a platform that helps students
+                            apply for different university opportunities
+                           in Bachelor's degree, Master's degree and PHD as well.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/support.png" width="400" height="300" >
+                    <div class="layer">
+                        <h3>Online support</h3>
+                        <p> 
+                            We provide tips on how to use internet effectively and help our users 
+                            to address hardware and software problems they encounter over internet.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/training.png" width="400" height="300" >
+                    <div class="layer">
+                        <h3>Online training</h3>
+                        <p>"Transform your skills with expert-led online training. 
+                            Join our dynamic courses designed to empower you with the knowledge 
+                            and tools for success, anytime, anywhere."
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+
+
+
+     <!--------------------------contact------------------------>
+      <div id="contact">
+     <div class="contact">
+        <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                <div class="change">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class='bx bx-send' ></i> itangishatsemusa@gmail.com</p>
+                <p><i class='bx bxs-phone-call' ></i> +250787065734</p>
+                  <div class="social-icon">
+
+                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                    <a href=""><i class='bx bxl-instagram'></i></a>
+                    <a href=""><i class='bx bxl-github'></i></a>
+                    <a href=""><i class='bx bxl-linkedin' ></i></a>
+                  </div>
+                  <a href="ITANGISHATSE (3).pdf" class="btn btn2">Download cv</a>
+              </div>
+              <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your message" required></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+
+                </form>
+                <span id="msg"></span>
+
+
+              </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>copyright  &copy  Musa Thekist.com mode it with <i class='bx bxs-heart'></i> </p> V 1.0.2, 2023-2024
+        </div>
+     </div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var a=document.getElementById("sidemenu");
+        function openmenu(){
+            a.style.right="0"; 
+        }
+        function closemenu(){
+            a.style.right="-200px"; 
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw4cwHopv-xisn4tqFDC0aLUWkWow6DoTDfBSk59tD0ZrRCp-5bApOhepK-QqrhvOc_rw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            document.getElementById("msg").innerHTML = "Message received successfully";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },1000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>

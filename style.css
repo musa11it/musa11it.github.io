@@ -78,9 +78,11 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+
 }
 .about-col-2{
     flex-basis: 60%;
+    flex-direction: row;
 }
 .sub{
     font-size: 60px;
@@ -125,6 +127,9 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+}
+.container{
+    flex-direction: row;
 }
 /*--------------services----------------*/
 #services{
@@ -287,6 +292,8 @@ nav ul li a:hover::after{
 .contact-right form{
     width: 100%;
 }
+
+
 form input, form textarea{
     width: 100%;
     border: 0px;
@@ -303,6 +310,7 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    
 }
 .copyright{
     width: 100%;
@@ -312,7 +320,10 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 
+
 }
+
+
 /*----------------------------------------responsiveness----------------------------*/
 nav .bx{
     display: none;
